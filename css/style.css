@@ -43,10 +43,12 @@ body {
   background: #ffffff;
   margin: 36px auto 0 auto;
   width: 870px;
+  padding: 30px 0;
+  border-radius: 5px;
 }
 
 .top-player h1 {
-  margin: 33px 0px 0px 36px;
+  margin: 3px 0px 0px 36px;
   text-transform: capitalize;
   color: #562eff;
 }
@@ -63,7 +65,7 @@ body {
   align-items: center;
 }
 
-.top-grid-box img {
+.top-grid-box-img {
   width: 56px;
   height: 56px;
   margin-right: 16px;
@@ -84,4 +86,42 @@ body {
   height: 0px;
   border: 1px solid #d1d1d1;
   margin: 0 30px 0 30px;
+}
+
+/* * middle-section */
+.top-blog h1 {
+  margin-top: 30px;
+}
+.middle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.middle-grid-img {
+  width: 177px;
+  height: 117px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 16px;
+}
+
+.middle-grid-text h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  margin: 16px 0px 0px 0px;
+  text-transform: capitalize;
+}
+
+.middle-grid-text p {
+  color: #9f9f9f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+}
+
+.middle-grid-text p a {
+  color: #562eff;
+  text-decoration: none;
 }
