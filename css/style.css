@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #f3f1ff;
 }
 
 .flex-container {
@@ -34,4 +35,53 @@ body {
   line-height: 24px;
   color: #ffffff;
   margin: 35px 0px 35px 36px;
+}
+
+/* * first-section */
+
+.top-player {
+  background: #ffffff;
+  margin: 36px auto 0 auto;
+  width: 870px;
+}
+
+.top-player h1 {
+  margin: 33px 0px 0px 36px;
+  text-transform: capitalize;
+  color: #562eff;
+}
+
+.top-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 83px 0 36px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.top-grid-box {
+  display: flex;
+  align-items: center;
+}
+
+.top-grid-box img {
+  width: 56px;
+  height: 56px;
+  margin-right: 16px;
+}
+
+.top-grid-box p {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0;
+}
+
+.line hr {
+  display: inline-block;
+  width: 807px;
+  height: 0px;
+  border: 1px solid #d1d1d1;
+  margin: 0 30px 0 30px;
 }
